@@ -1,0 +1,113 @@
+/* --------------------
+   Estilos Generales
+   -------------------- */
+body {
+  /* Fondo negro */
+  background-color: #000;
+  /* Fuente principal según redline mock */
+  font-family: Verdana, sans-serif;
+  color: #fff; /* Color de texto predeterminado */
+  text-align: center;
+}
+
+/* --------------------
+   Tipografía y Enlaces
+   -------------------- */
+
+/* 7. Estilo para la cabecera principal */
+.header--main {
+  font-size: 50px; /* Tamaño grande según maqueta */
+  font-weight: normal; /* Normal, no negrita */
+  color: #fff;
+  /* Alineación según redline mock */
+  text-align: center;
+}
+
+/* 9. Estilo para las cabeceras secundarias */
+.header--secondary {
+  font-size: 42px;
+  font-weight: 300; /* Peso 300 según redline mock */
+  color: #fff;
+}
+
+/* 9. Estilo para el texto sutil (descripción) */
+.text--subtle {
+  font-size: 21px;
+  color: gray; /* Gris según redline mock */
+}
+
+/* 7. y 9. Estilo para el enlace CTA (Call to Action) */
+.link--cta {
+  font-size: 16px;
+  /* Color Aquamarine según redline mock */
+  color: aquamarine;
+}
+
+/* --------------------
+   Secciones y Contenido
+   -------------------- */
+
+/* 7. Estilos de Header */
+header {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* Contenedor principal de texto */
+.content--primary {
+  padding: 0 50px;
+  margin-bottom: 100px; /* Espaciado entre secciones */
+}
+
+/* 9. Estilos para Video */
+video {
+  width: 100%; /* El video debe ocupar el ancho total del contenedor */
+  max-width: 650px; /* Limite el ancho máximo para evitar que sea demasiado grande en pantallas amplias */
+  height: auto;
+  /* Centrado si hay espacio a los lados */
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+/* 9. Estilos para Imagen de Camping */
+.content--secondary img {
+  /* Imagen de paisaje (camp.jpg) */
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+/* 9. Estilos para el icono del móvil */
+.content--primary img {
+  /* Icono del móvil (phone.png) */
+  width: 32px; /* Tamaño del icono */
+  margin: 30px auto 10px; /* Espaciado */
+}
+
+/* 9. Por defecto, las imágenes aparecen en línea, pero al estar dentro de un <p>, se comportan como bloque y se centran con text-align: center del body. 
+   Para mayor seguridad y replicar el comportamiento deseado, aseguramos el centrado de los bloques de imagen. */
+.content--secondary p,
+.content--primary p {
+  text-align: center;
+}
+
+/* --------------------
+   12. Footer
+   -------------------- */
+footer {
+  background-color: #000;
+  padding: 20px 0;
+  border-top: 1px solid gray; /* Línea sutil en la parte superior */
+  /* El footer debería tener una altura fija o depender del contenido */
+}
+
+.footer__copyright {
+  /* Estilo del copyright según redline mock (alineación a la derecha y color gris) */
+  color: gray;
+  font-size: 16px;
+  margin-right: 20px; /* Pequeño margen para separarlo del borde derecho */
+  text-align: right;
+}
